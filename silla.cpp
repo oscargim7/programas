@@ -1,3 +1,12 @@
+/*
+    Romero Escamilla Oscar Eduardo
+    22110112
+    2P
+    Programación Orientada en Objetos
+    Descripción de programa:
+        - Desarrollo de 5 Objetos en C++.
+*/
+
 class Silla
 {
     //Atributos
