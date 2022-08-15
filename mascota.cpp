@@ -19,7 +19,7 @@ class Mascota
     comer(void);
     correr(void);
     brincar(void);
-    ladrar(void);
+    bailar(void);
 }
 
 int main()
@@ -37,5 +37,5 @@ int main()
     mimascota.comer(void);
     mimascota.correr(void);
     mimascota.brincar(void);
-    mimascota.ladrar(void);
+    mimascota.bailar(void);
 }
