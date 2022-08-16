@@ -10,20 +10,22 @@
 class Celular
 {
     //Atributos
-    char nombre;
-    char marca;
-    float precio;
-    float ram;
-    float espacio;
-    char procesador;
-    char color;
-    float tamanio;
+     private:
+        char nombre;
+        char marca;
+        float precio;
+        float ram;
+        float espacio;
+        char procesador;
+        char color;
+        float tamanio;
 
     //Métodos
-    comunicarte(void);
-    explorar(void);
-    entretener(void);
-    investigar(void);
+     public: 
+        comunicarte(void);
+        explorar(void);
+        entretener(void);
+        investigar(void);
 }
 
 int main()

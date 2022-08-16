@@ -10,17 +10,19 @@
 class Tele 
 {
     //Atributos
-    char modelo;
-    float precio;
-    float tamanio;
-    char marca;
-    char color;
+    private:
+        char modelo;
+        float precio;
+        float tamanio;
+        char marca;
+        char color;
 
     //Métodos
-    informar(void);
-    entretener(void);
-    explorar(void);
-    relajar(void);
+     public: 
+        informar(void);
+        entretener(void);
+        explorar(void);
+        relajar(void);
 }
 
 int main()

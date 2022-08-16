@@ -10,17 +10,19 @@
 class Silla
 {
     //Atributos
-    char material;
-    float precio;
-    float tamanio;
-    char marca;
-    char color;
+     private:
+        char material;
+        float precio;
+        float tamanio;
+        char marca;
+        char color;
 
     //Métodos
-    sentar(void);
-    recargarse(void);
-    colocar_cosas(void);
-    poner_ropa(void);
+     public: 
+        sentar(void);
+        recargarse(void);
+        colocar_cosas(void);
+        poner_ropa(void);
 }
 
 int main()

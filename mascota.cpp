@@ -10,16 +10,18 @@
 class Mascota
 {
     //Atributos
-    char nombre;
-    float altura;
-    float peso;
-    char raza;
+    private:
+        char nombre;
+        float altura;
+        float peso;
+        char raza;
 
     //Métodos
-    comer(void);
-    correr(void);
-    brincar(void);
-    bailar(void);
+    public: 
+        comer(void);
+        correr(void);
+        brincar(void);
+        bailar(void);
 }
 
 int main()

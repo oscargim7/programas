@@ -10,17 +10,19 @@
 class Balon
 {
     //Atributos
-    char nombre;
-    float precio;
-    float tamanio;
-    char marca;
-    char color;
+     private:
+        char nombre;
+        float precio;
+        float tamanio;
+        char marca;
+        char color;
 
     //Métodos
-    patear(void);
-    lanzar(void);
-    ejercitar(void);
-    rematar(void);
+     public: 
+        patear(void);
+        lanzar(void);
+        ejercitar(void);
+        rematar(void);
 }
 
 int main()
